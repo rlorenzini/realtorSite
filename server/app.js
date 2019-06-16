@@ -7,13 +7,12 @@ const express = require('express'),
   Sequelize = require('sequelize'),
   Op = Sequelize.Op,
   jwt = require('jsonwebtoken'),
-  // bcrypt = require('bcrypt'),
-  // SALT_ROUNDS = 10,
-  // myPlaintextPassword = 's0/\/\P4$$w0rD',
-  // someOtherPlaintextPassword = 'not_bacon',
+  bcrypt = require('bcrypt'),
+  SALT_ROUNDS = 10,
+  myPlaintextPassword = 's0/\/\P4$$w0rD',
+  someOtherPlaintextPassword = 'not_bacon',
   // schedule = require('node-schedule'),
   PORT = process.env.PORT || 8080;
-// Why does bcrypt never work for me?
 
 app.use(cors())
 app.use(bodyParser.json())
