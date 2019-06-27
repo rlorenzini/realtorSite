@@ -18,7 +18,8 @@ app.use(cors())
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 
-
+//app.get
+//app.post
 
 app.listen(PORT, () => {
   console.log(`Server running at localhost: ${PORT} `);
