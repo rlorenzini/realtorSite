@@ -6,6 +6,8 @@ import { Provider } from 'react-redux';
 import './index.css';
 import App from './App';
 import BaseLayout from './components/BaseLayout';
+import HomePage from './components/HomePage';
+import Login from './components/Login';
 
 import * as serviceWorker from './serviceWorker';
 const store = createStore(window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
@@ -16,6 +18,10 @@ ReactDOM.render(
 
     <BrowserRouter>
       <BaseLayout>
+      <Switch>
+      <Route path='/' exact component={HomePage} />
+      <Route path='/login' component={Login} />
+      </Switch>
       </BaseLayout>
     </BrowserRouter>
 

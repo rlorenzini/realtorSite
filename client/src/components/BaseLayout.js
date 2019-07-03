@@ -9,7 +9,6 @@ class BaseLayout extends Component {
   return (
     <div>
       <Header className=".headerOrientation"/>
-      <h1>BaseLayout</h1>
       {this.props.children}
     </div>
   )};
