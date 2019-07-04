@@ -25,6 +25,8 @@ class Login extends Component {
     </div>
   )};
 }
-
+// under sign in ask yes/no if realtor
+//if yes unhide box with realtor info
+//if yes send data to db as realtor and user 
 
 export default Login
