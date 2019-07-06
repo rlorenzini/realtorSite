@@ -6,11 +6,24 @@
 .loginPageInnerDisplay {
 
 }
-
+.loginPageInputBox {
+  height: 2rem;
+  font-size: 1.3rem;
+  border-radius: 34px;
+}
+.loginPageButton {
+  height: 2rem;
+  font-size: 1.3rem;
+  border-radius: 34px;
+}
 /* changes Sign In and Register labels */
 .loginPageLabel {
   font-weight: 600;
   font-size: 2rem;
+}
+.booleanQuestion {
+  font-weight: 500;
+  font-size: 1.7rem;
 }
 /* Sign In main box top of page */
 .loginPageInnerDisplay h1 {
@@ -23,4 +36,6 @@
 /* yes/no switch div */
 .realtorBooleanDiv {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
