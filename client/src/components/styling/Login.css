@@ -6,10 +6,21 @@
 .loginPageInnerDisplay {
 
 }
+
+/* changes Sign In and Register labels */
+.loginPageLabel {
+  font-weight: 600;
+  font-size: 2rem;
+}
+/* Sign In main box top of page */
 .loginPageInnerDisplay h1 {
   border: solid;
   border-color: #C7493A;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+/* yes/no switch div */
+.realtorBooleanDiv {
+  display: flex;
 }
