@@ -57,5 +57,5 @@ class Login extends Component {
 
 
 //need to change state with checkbox
-//when checked display new input fields for realtors
+//when checked display new input fields for realtors 
 export default Login
